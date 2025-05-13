@@ -24,7 +24,7 @@ The layout adjusts seamlessly for desktops, tablets, and mobile devices using CS
 ## 🎉 Hackathon Details
 
 - **Event:** Vinsys Hackathon  
-- **Date:** _(13/05/)_  
+- **Date:** _(13/05/2025)_  
 - **Team:** HackMasters Team No. 3
 
 ## 📂 Project Structure
