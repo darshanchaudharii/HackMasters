@@ -12,8 +12,25 @@
         <p>Your Fashion Destination</p>
     </header>
 
+    <div class="filters">
+    <input type="text" id="searchInput" placeholder="Search products...">
+
+    <select id="categoryFilter">
+        <option value="">All Categories</option>
+        <option value="clothing">Clothing</option>
+        <option value="accessory">Accessory</option>
+        <option value="footwear">Footwear</option>
+    </select>
+
+    <input type="number" id="minPrice" placeholder="Min Price">
+    <input type="number" id="maxPrice" placeholder="Max Price">
+
+    <button onclick="applyFilters()">Filter</button>
+    </div>
+
+
     <div class="products-container">
-        <div class="product-card">
+        <div class="product-card" data-category="clothing" data-price="899" data-name="Premium Cotton Shirt">
             <img src="images/Comfortable Cotton Shirt.png" alt="Cotton Shirt">
             <h3>Premium Cotton Shirt</h3>
             <p class="price">₹899</p>
@@ -21,7 +38,7 @@
             <button class="add-to-cart">Add to Cart</button>
         </div>
 
-        <div class="product-card">
+        <div class="product-card" data-category="accessory" data-price="199" data-name="Stylish Cap">
             <img src="images/Cap.png" alt="Stylish Cap">
             <h3>Trendy Baseball Cap</h3>
             <p class="price">₹349</p>
@@ -29,7 +46,7 @@
             <button class="add-to-cart">Add to Cart</button>
         </div>
 
-        <div class="product-card">
+        <div class="product-card" data-category="accessory" data-price="999" data-name="Sunglasses">
             <img src="images/Goggle.png" alt="Sunglasses">
             <h3>Polarized Goggles</h3>
             <p class="price">₹599</p>
@@ -37,7 +54,7 @@
             <button class="add-to-cart">Add to Cart</button>
         </div>
 
-        <div class="product-card">
+        <div class="product-card" data-category="footwear" data-price="1299" data-name="Sports Running Shoes">
             <img src="images/shoes.png" alt="Sports Shoes">
             <h3>Sports Running Shoes</h3>
             <p class="price">₹1299</p>
@@ -45,7 +62,7 @@
             <button class="add-to-cart">Add to Cart</button>
         </div>
 
-        <div class="product-card">
+        <div class="product-card" data-category="clothing" data-price="999" data-name="casual dress">
             <img src="images/Stylish_Summer _Dress.png" alt="Casual Dress">
             <h3>Casual Summer Dress</h3>
             <p class="price">₹999</p>
@@ -53,7 +70,7 @@
             <button class="add-to-cart">Add to Cart</button>
         </div>
 
-        <div class="product-card">
+        <div class="product-card" data-category="accessory" data-price="299" data-name="water bottle">
             <img src="images/Water.png" alt="Water Bottle">
             <h3>Insulated Water Bottle</h3>
             <p class="price">₹449</p>
@@ -61,5 +78,6 @@
             <button class="add-to-cart">Add to Cart</button>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
