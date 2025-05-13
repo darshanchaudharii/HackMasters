@@ -2,27 +2,7 @@
 ## 🧾 Technologies Used
 
 - **HTML5** – Structure and layout  
-- **CSS3** – Styling and responsiveness  
-
-## 🖼️ Screenshots
-
-### Home Page  
-![Home page of Style Bazaar](images/Homepage.png)  
-
-### Product Listing
-
-<p float="left">
-  <img src="images/Comfortable Cotton Shirt.png" alt="Shirt" width="200" />
-  <img src="images/Cap.png" alt="Cap" width="200" />
-  <img src="images/Goggle.png" alt="Goggles" width="200" />
-  <img src="images/Water.png" alt="Cap" width="200" />
-  <img src="images/shoes.png" alt="Goggles" width="200" />
-  <img src="images/Stylish_Summer _Dress" alt="Goggles" width="200" />
-    
-</p>
-  
-
-
+- **CSS3** – Styling and responsiveness 
 ## 📦 How to Use
 
 1. Clone or download the repository.  
